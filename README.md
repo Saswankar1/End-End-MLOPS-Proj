@@ -24,7 +24,10 @@ To run the code in this repository, you need the following libraries installed:
    cd End-End-MLOPS-Proj
    ```
 
-5. Follow the instructions in the notebook or script to load the dataset, preprocess the data, train the model, and evaluate its performance.
+3. 3. Install the required libraries:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Model Evaluation
 The performance of the model is evaluated using metrics such as accuracy, precision, recall, and F1-score. Additionally, visualizations such as confusion matrix and ROC curve are used to assess the model's performance.
