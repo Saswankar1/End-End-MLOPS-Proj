@@ -1,13 +1,11 @@
-# to reuse the code 
-
 import os
-from box.exceptions import BoxValueError # type: ignore
-import yaml # type: ignore
+from box.exceptions import BoxValueError
+import yaml
 from ML_Project import logger
 import json
-import joblib # type: ignore
-from ensure import ensure_annotations # type: ignore
-from box import ConfigBox # type: ignore
+import joblib
+from ensure import ensure_annotations
+from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
